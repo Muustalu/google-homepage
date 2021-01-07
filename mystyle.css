@@ -1,34 +1,69 @@
- nav {
-
- }
- 
  ul {
      list-style-type: none;
      margin: 0;
      padding: 0;
  }
+ 
+ .right {
+    float: right;
+    padding-right: 10px;
+}
+
+ .left {
+     float: left;
+     padding-right: 10px;
+ }
+
  li {
      display: inline;
      margin-left: auto;
      margin-right: auto;
+     font-size: 13px
+     
  }
+ a:link {
+     text-decoration: none;
+ } 
  
- .right {
-     display: block;
-     padding-right: 20px;
+ a:visited {
+     color: black;
  }
 
  img {
      display: block;
      margin-left: auto;
      margin-right: auto;
+     padding-top: 225px;
+     width: 15%
  }
- #search-bar {
-     text-align: center;    
-    
+ 
+ #searchbar {
+     text-align: center;
+ }
+ 
+ #searchbar input {
+     background-color: white;
+     width: 500px;
+     height: 40px;
+     border: 1px solid lightgray;
+     border-radius: 25px;
  }
 
  form {
      text-align: center;
+     padding-top: 20px;
  }
+
+ .butt {
+     height: 30px;
+     background-color: rgb(240, 240, 240);
+     border: none;
+ }
+
+ p {
+     text-align: center;
+     font-size: 12px;
+ }
+
+ 
 
